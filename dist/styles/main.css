@@ -1,0 +1,157 @@
+.hero {
+  width: 100%;
+  background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/yRF5c-O/yellow-bubbles-particles-background-looped-4k-and-full-hd_n1s1v_wtg_thumbnail-1080_07.png);
+  background-size: cover;
+}
+.hero__item {
+  padding: 0 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+.hero__banner img {
+  left: 0;
+  width: 100%;
+}
+
+.hero__itens {
+  text-align: center;
+}
+
+#about {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5e540f30394fe70075c1ccd6/1641325259788-JGBV1DNRUD5EMEZ4G06M/ENCANTO-ONLINE-USE-mono_fullcomp.0069-scaled.jpg);
+}
+#about img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+#mirabel {
+  padding-top: 90px;
+}
+@media (max-width: 768px) {
+  #mirabel {
+    display: none;
+  }
+}
+
+#about h1 {
+  border: 1px solid yellow;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 10px;
+  background-image: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/05/isabela-madrigal-surrounded-by-flowers-in-encanto.jpg);
+  background-size: contain;
+}
+
+#dom {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  background-size: cover;
+  background-image: url(https://amuseboosh.com/wp-content/uploads/2022/03/Encanto_Vision_off.jpg);
+}
+#dom img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+#bruno {
+  padding-top: 90px;
+}
+@media (max-width: 768px) {
+  #bruno {
+    display: none;
+  }
+}
+
+#dom h1 {
+  border: 1px solid rgb(89, 255, 0);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 10px;
+  background-image: url(https://media.sidefx.com/uploads/article/encanto/bruno_visions1.jpg);
+  background-size: contain;
+}
+
+.lore {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(136, 68, 4);
+  display: block;
+  align-items: center;
+}
+.lore p {
+  margin-top: 20px;
+  color: white;
+}
+
+.dom {
+  background-color: green;
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  align-items: center;
+}
+.dom p {
+  margin-top: 20px;
+  color: white;
+}
+
+.footer {
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  text-align: center;
+  background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/yRF5c-O/yellow-bubbles-particles-background-looped-4k-and-full-hd_n1s1v_wtg_thumbnail-1080_07.png);
+  opacity: 0.9;
+  background-size: contain;
+}
+
+header img {
+  width: 100px;
+  margin-bottom: 13px;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(255, 166, 0) !important;
+}
+
+.button {
+  font-size: 20px;
+  background-color: yellow;
+  color: black;
+  border-radius: 5px;
+  border: 2px outset black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: transparent;
+  background-image: url(https://i.pinimg.com/originals/08/f0/99/08f099a48e9bdff49a7ec9b3517b9c9d.gif);
+  background-size: contain;
+  color: white;
+  font-weight: bold;
+}

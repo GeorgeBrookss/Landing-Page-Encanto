@@ -1,0 +1,72 @@
+@use 'variaveis';
+
+
+
+
+#about{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e540f30394fe70075c1ccd6/1641325259788-JGBV1DNRUD5EMEZ4G06M/ENCANTO-ONLINE-USE-mono_fullcomp.0069-scaled.jpg);
+    img{
+        width: 200px;
+        margin-top: 20px;
+        
+    }
+
+}
+
+#mirabel{
+    padding-top: 90px;
+
+    @media(max-width: 768px){
+        display: none;
+    }
+}
+
+#about h1{
+    border: 1px solid variaveis.$corButton;
+    text-align: center;
+    color: variaveis.$corH1;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: url(https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/05/isabela-madrigal-surrounded-by-flowers-in-encanto.jpg);
+    background-size: contain;
+}
+
+
+#dom{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    background-size: cover;
+    background-image: url(https://amuseboosh.com/wp-content/uploads/2022/03/Encanto_Vision_off.jpg);
+    img{
+        width: 200px;
+        margin-top: 20px;
+        
+        
+    }
+
+}
+
+#bruno{
+    padding-top: 90px;
+
+    @media(max-width: 768px){
+        display: none;
+    }
+}
+
+#dom h1{
+    border: 1px solid rgb(89, 255, 0);
+    text-align: center;
+    color: variaveis.$corH1;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: url(https://media.sidefx.com/uploads/article/encanto/bruno_visions1.jpg);
+    background-size: contain;
+}

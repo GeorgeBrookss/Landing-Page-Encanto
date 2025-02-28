@@ -1,0 +1,33 @@
+@use 'variaveis';
+
+
+
+.lore{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: variaveis.$loreFirstBackg;
+    display: block;
+    align-items:center;
+    p{
+        margin-top: 20px;
+        color: variaveis.$textoHover;
+        }
+    }
+
+
+.dom{
+    background-color: variaveis.$loreSecondBackg;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    align-items:center;
+
+    p{
+        margin-top: 20px;
+        color: variaveis.$textoHover;
+
+    }
+}
+

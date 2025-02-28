@@ -1,0 +1,68 @@
+@use 'hero';
+@use 'about';
+@use 'lore';
+@use 'footer';
+@use 'variaveis';
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    text-align: center;
+    background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/yRF5c-O/yellow-bubbles-particles-background-looped-4k-and-full-hd_n1s1v_wtg_thumbnail-1080_07.png);
+    opacity: 0.9;
+    background-size: contain;
+
+}
+header img{
+    width: 100px;
+    margin-bottom: 13px;
+    
+}
+
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 166, 0)!important;
+    
+}
+
+
+
+
+.button{
+    font-size: 20px;
+    background-color: variaveis.$corButton;
+    color: variaveis.$textoPrincipal;
+    border-radius: 5px;
+    border: 2px outset variaveis.$textoPrincipal;
+    font-weight: bold;
+    
+    text-decoration: none;
+    &:hover{
+        background-color: transparent;
+        background-image: url(https://i.pinimg.com/originals/08/f0/99/08f099a48e9bdff49a7ec9b3517b9c9d.gif);
+        background-size: contain;
+        color:  variaveis.$textoHover;
+        font-weight: bold;
+    }
+}
+
+

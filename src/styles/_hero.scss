@@ -1,0 +1,30 @@
+.hero{
+    width: 100%;
+    background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/yRF5c-O/yellow-bubbles-particles-background-looped-4k-and-full-hd_n1s1v_wtg_thumbnail-1080_07.png);
+    background-size: cover;
+
+
+
+    
+    &__item{
+        padding: 0 20px;
+        margin-left: 20px;
+        text-align: center;
+
+    }
+
+    &__banner{
+    
+
+        
+        img{
+            left: 0;
+            width: 100%;
+        }
+    }
+}
+
+.hero__itens{
+    text-align: center;
+
+}
