@@ -126,11 +126,28 @@ header {
   background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/yRF5c-O/yellow-bubbles-particles-background-looped-4k-and-full-hd_n1s1v_wtg_thumbnail-1080_07.png);
   opacity: 0.9;
   background-size: contain;
+  transition: 0.5s ease;
+}
+header #watchNow {
+  visibility: hidden;
+  display: none;
+}
+header.header--is-active {
+  transition: 0.5s ease;
+  padding: 2px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header.header--is-active #watchNow {
+  visibility: visible;
+  display: inline;
 }
 
 header img {
   width: 100px;
   margin-bottom: 13px;
+  transition: 0.5s ease;
 }
 
 body {
@@ -146,6 +163,7 @@ body {
   border-radius: 5px;
   border: 2px outset black;
   font-weight: bold;
+  padding: 0 12px;
   text-decoration: none;
 }
 .button:hover {
