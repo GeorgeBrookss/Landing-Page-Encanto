@@ -9,20 +9,32 @@
     background-color: variaveis.$loreFirstBackg;
     display: block;
     align-items:center;
+    justify-content: center;
+    width: 90%;
+    
     p{
+        font-size: 20px;
         margin-top: 20px;
         color: variaveis.$textoHover;
+        @media (max-width: 768px){
+            font-size: 15px;
+        }
         }
     }
 
 
-.dom{
+.dom-lore{
     background-color: variaveis.$loreSecondBackg;
     max-width: 1024px;
     margin: 0 auto;
     text-align: center;
     display: block;
     align-items:center;
+    font-size: 20px;
+    width: 90%;
+    @media (max-width: 768px){
+        font-size: 15px;
+    }
 
     p{
         margin-top: 20px;

@@ -31,6 +31,11 @@ header{
     background-size: contain;
     transition: .5s ease;
 
+    #trailer{
+        @media (max-width: 768px){
+            font-size: 12px;
+        }
+    }
 
     #watchNow{
         visibility: hidden;
@@ -43,10 +48,15 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
 
         #watchNow{
             visibility: visible;
             display: inline;
+            @media (max-width: 768px){
+                font-size: 12px;
+            }
+        
         }
     }
 
@@ -55,6 +65,9 @@ header img{
     width: 100px;
     margin-bottom: 13px;
     transition: .5s ease;
+    @media (max-width: 768px){
+        width: 72px;
+    }
 
     
 }
@@ -77,8 +90,11 @@ body{
     border: 2px outset variaveis.$textoPrincipal;
     font-weight: bold;
     padding: 0 12px;
-    
     text-decoration: none;
+    @media (max-width: 768px){
+        font-size: 18px;
+    }
+
     &:hover{
         background-color: transparent;
         background-image: url(https://i.pinimg.com/originals/08/f0/99/08f099a48e9bdff49a7ec9b3517b9c9d.gif);
